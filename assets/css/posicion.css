@@ -1,0 +1,43 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid  black;
+    width: 30%;
+    text-align: center;
+}
+
+div.static {
+    position: static;
+    background-color: aquamarine;
+}
+
+div.relative{
+    position: relative;
+    background-color: goldenrod;
+    top: 100px;
+    left: 600px;
+}
+div.fixed {
+    position: fixed;
+    background-color: coral;
+    top: 0;
+    right: 0;
+}
+p.parrafo{height: 2000px;}
+div.relative2 {position: relative; background-color: beige; height: 100px;}
+div.absolute{
+    position: absolute;
+    background-color: greenyellow;
+    bottom: 0;
+    right: 0;
+}
+div.sticky{
+    position: sticky;
+    background-color: crimson;
+    top: 10px;
+    left: 0;
+}

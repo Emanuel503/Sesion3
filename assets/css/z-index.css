@@ -1,0 +1,22 @@
+*{box-sizing: border-box;}
+div.contenido{
+    position: absolute;
+    z-index: 99999; 
+    top: 150px;
+    border:1px solid black;
+}
+div.contenido p {
+    color: #fff;
+    padding: 10px;
+    background-color: crimson;
+    width: 554px;
+    margin: 10px;
+    /* opacity: 0.7; */
+    /* height: 75px; */
+    /* overflow: auto; */
+}
+img{
+    position: absolute;
+    width: 576px;
+    /* opacity: 50%; */
+}
