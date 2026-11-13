@@ -1,0 +1,16 @@
+1. Git es el sistema de control de versiones de codigo, para llevar un control de los cambios que se van realizando. 
+GitHub es un paltaforma que utiliza para alojar el codigo fuente, no permite gestionar nuestros proyectos, este utiliza git.
+
+2. git add: se utiliza para agregar los arhivos a la zona de staging y git commit se utilza para crea una "fotografia" del estado actual del codigo
+
+3. Por que funcionan de manera independiente, el commit saldra hasta que se agregue el origen y se suban los cambios al repositorio remoto Github en este caso
+
+4. Git push es un comando para subir los cambios realizados al repositorio remoto ya sea Github, GitLab, entr otros.
+
+5. Git status muestra los archivos que tiene cambios, que han sido creados o eliminados, tambien muestra el nombre de la rama actual y el estado de la rama con el repositorio remoto
+
+6. Para revisar los cambios que se han hecho y asi estar seguro de los cambios que estaremos guardando al hacer un commit.
+
+7. Subir contraseñas o tokens al repositorio es peligroso ya que estaos pueden ser accesibles por terceros, ya sean personas o bots.
+
+8. El readme es un arhivo donde podemos describir las funcionalidades y decripcion del sistema o codigo que hemos subido, tambien puede contener pasos de instalacion etc.
